@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+	--dark-clr: #24232c;
+	--bg-clr: #18171f;
+	--dark-gray: #817D92;
+	--light-gray: #e6e5ea;
+	--green-clr: #a4ffaf;
+	--red-clr: #f64a4a;
+	--orange-clr: #f87c58;
+	--yellow-clr: #f8cd65;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: var(--bg-clr);
+	color: var(--light-gray);
+	font-family: monospace, sans-serif;
+
+}
